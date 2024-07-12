@@ -154,3 +154,38 @@
 }
 
 
+/* My Inspration */
+
+.inspiration {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.inspiration-title {
+    font-size: 32px;
+    font-weight: 900px;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+}
+
+.inspiration-discription {
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 1);
+    text-align: center;
+
+}
+
+
+
+.ins-video {
+    padding: 32px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+
+.video-play {
+    border-radius: 16px;
+    overflow: hidden;
+}
