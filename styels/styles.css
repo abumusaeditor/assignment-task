@@ -41,12 +41,14 @@
 }
 
 .nav-resume {
-    border: 1px solid black;
+    height: 60px;
+    padding: 17px 24px;
     border-radius: 8px;
-    padding: 8px;
+    background-color: white;
+    border: 1px solid black;
     font-size: 20px;
-    font-weight: bold;
-    font-family: "Azeret Mono", monospace;
+    font-family:"Azeret Mono", monospace;
+    color: #0D1321;
 }
 
 
@@ -282,4 +284,18 @@
 
 .support-from {
     text-align: center;
+}
+
+
+/* Footer */
+.footer-page {
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
