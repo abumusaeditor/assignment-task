@@ -4,3 +4,63 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+
+
+
+
+.nav {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+
+.nav-resume {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+}
+
+
+.nav-title {
+    font-size: 35px;
+    font-family: "Azeret Mono", monospace;
+}
+
+.header {
+    background-image: url(../assets/Hero-bg.png);
+    text-align: center;
+    padding: 30px 230px;
+    font-family: "Azeret Mono", monospace;
+}
+
+
+.header-picture {
+    height: 240px;
+}
+
+
+.header-title {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+
+.header-discription {
+    font-size: 26px;
+    color: #0D1321;
+}
+
+.header-button {
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: #0D1321;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: "Azeret Mono", monospace;
+}
