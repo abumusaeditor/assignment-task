@@ -13,6 +13,23 @@
     margin: 0px auto;
 }
 
+.container-title {
+    font-size: 32px;
+    font-weight: 900px;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+}
+
+.container-discription {
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 1);
+    text-align: center;
+
+}
+
+
+
 
 /* Nav Design */
 
@@ -81,21 +98,6 @@
     padding: 80px 140px;
 }
 
-.web-container-title{
-    font-size: 32px;
-    font-weight: 900px;
-    text-align: center;
-    font-family: "Azeret Mono", monospace;
-}
-
-.web-container-discription {
-    font-size: 16px;
-    font-weight: 400px;
-    text-align: center;
-    font-family: "Azeret Mono", monospace;
-}
-
-
 
 /* Web Design Section */
 
@@ -157,35 +159,68 @@
 /* My Inspration */
 
 .inspiration {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
-.inspiration-title {
-    font-size: 32px;
-    font-weight: 900px;
-    text-align: center;
-    font-family: "Azeret Mono", monospace;
-}
-
-.inspiration-discription {
-    font-size: 16px;
-    font-family: "Azeret Mono", monospace;
-    color: rgba(13, 19, 33, 1);
-    text-align: center;
-
-}
-
-
-
 .ins-video {
     padding: 32px;
-    border: 1px solid black;
+    border: 1px solid rgb(171, 171, 171);
     border-radius: 16px;
+    margin-top: 60px;
 }
-
 
 .video-play {
     border-radius: 16px;
-    overflow: hidden;
+}
+
+
+
+/* Target Section */
+
+
+.target-icon {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    gap: 24px;
+}
+
+
+.target-icon-html {
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+}
+
+.target-icon-css {
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 30px;
+}
+
+.target-icon-javascript {
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 30px;
+}
+
+
+
+.target-icon-title {
+    font-size: 24px;
+    font-weight: 900px;
+    font-family:"Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 1);
+}
+
+
+.target-icon-discription {
+    font-size: 16px;
+    font-family:"Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 1);
+}
+
+.target-icon-button {
+    font-size: 16px;
+    font-weight: bolder;
+    font-family:"Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 1);
 }
