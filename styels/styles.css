@@ -7,13 +7,20 @@
 
 
 
+/* Shared */
+.main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
+
+/* Nav Design */
 
 .nav {
     display: flex;
     align-self: center;
     justify-content: space-between;
-    margin: 10px 150px;
+    margin: 10px 200px;
 }
 
 .nav-resume {
@@ -31,16 +38,13 @@
     font-family: "Azeret Mono", monospace;
 }
 
+
+/* Header Design */
 .header {
     background-image: url(../assets/Hero-bg.png);
     text-align: center;
     padding: 30px 230px;
     font-family: "Azeret Mono", monospace;
-}
-
-
-.header-picture {
-    height: 240px;
 }
 
 
@@ -53,6 +57,7 @@
 .header-discription {
     font-size: 26px;
     color: #0D1321;
+    margin: 24px 70px;
 }
 
 .header-button {
@@ -60,7 +65,92 @@
     font-weight: 600px;
     background-color: #0D1321;
     color: white;
-    padding: 10px 15px;
+    padding: 21px 24px;
+    margin: 26px 221px 45px;
     border-radius: 8px;
     font-family: "Azeret Mono", monospace;
 }
+
+
+
+/* Why Web Design Container */
+.web-dev-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 140px;
+}
+
+.web-container-title{
+    font-size: 32px;
+    font-weight: 900px;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+}
+
+.web-container-discription {
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+}
+
+
+
+/* Web Design Section */
+
+.web-dev-section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 50px;
+    background-color: white;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(13, 19, 33, 0.02));
+    border-radius: 16px;
+}
+
+
+.web-dev-section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 50px;
+    background-color: white;
+    background-image: linear-gradient(to right, rgb(13, 19, 33, 0.02), rgb(255, 255, 255) );
+    border-radius: 16px;
+}
+
+
+.web-dev-section3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 50px;
+    background-color: white;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(13, 19, 33, 0.02));
+    border-radius: 16px;
+}
+
+.web-dev-section-title {
+    font-size: 24px;
+    font-weight: 800px;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.web-dev-section-discription {
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 1);
+}
+
+.web-dev-section-btn {
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 15px;
+    font-family: "Azeret Mono", monospace;
+}
+
+
